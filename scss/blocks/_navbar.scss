@@ -67,6 +67,8 @@
 
 
 
+
+
 @media(max-width: 992px){
     .navbar-nav{
         width: 400px !important;
@@ -76,7 +78,15 @@
         padding-left: 20px;
     }
     .navbar__search{
-        width: 100% !important;
+        display: none !important;
+       
+    }
+    .navbar__searchch{
+        display: block !important;
+        width: 100%;
+        position: absolute !important;
+        top: 60px !important;
+        z-index: -1;
     }
     .navabr__btn{
         padding-right: 20px !important;
